@@ -9,10 +9,10 @@ setting up CodeBuild job that seamlessly deploys Terraform configurations whenev
 Create an IAM user with full access permissions.
 
 #### GitHub Repository: 
-Create and clone a GitHub repository for your project.
+Create and clone a GitHub repository for the project.
 
 #### Local Testing: 
-Test your Terraform scripts locally to ensure they work as expected.
+Test Terraform scripts locally to ensure they work as expected.
 
 #### Shell Scripts: 
 Develop shell scripts to automate deployment tasks.
@@ -27,7 +27,7 @@ Generate a personal access token for secure GitHub interactions.
 Store Terraform state files in an S3 bucket for centralized management.
 
 #### CodeBuild Project: 
-Set up a CodeBuild project to build and deploy your infrastructure.
+Set up a CodeBuild project to build and deploy infrastructure.
 
 #### Terraform Destroy: 
 Configure CodeBuild to run Terraform destroy commands for cleanup.
